@@ -1,0 +1,34 @@
+---
+title: "HW Lab 06"
+author: "Eli Haddad (A16308227)"
+format: pdf
+---
+
+```{r}
+library(bio3d)
+# Documentation
+# The function analyze_protein() generates a plot for the input protein, which 
+# plots the protein's residues in relation to their B-factors. The input is the
+# PDB ID of the protein of interest and the output is a plot. To use the
+# function, just call the function with the PDB id of your protein of interest.
+
+# Arguments (1)
+#   id (string) : PDB Protein Entry ID 
+
+# Output (1)
+#   Plot of the protein's residues in relation to their B-factor 
+
+analyze_protein <- function(id) {
+  protein <- read.pdb(id)
+  protein.chainA <- trim.pdb(protein, chain="A", elety="CA")
+  plotb3(protein.chainA$atom$b, sse=protein.chainA, typ="l", ylab="Bfactor")
+}
+
+
+analyze_protein("4AKE") # kinase with drug
+analyze_protein("1AKE") # kinase no drug
+analyze_protein("1E4Y") # kinase with drug
+
+
+```
+
