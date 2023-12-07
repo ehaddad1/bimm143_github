@@ -16,6 +16,9 @@ My classwork for F23 in [BIMM 143](https://github.com/ehaddad1/bimm143_github) a
 
 - Class 11: [Population Analysis](https://github.com/ehaddad1/bimm143_github/blob/main/Class11Pt2/class11part2.md)
 
+- Class 13: [Population Analysis](https://github.com/ehaddad1/bimm143_github/blob/main/Class13/class13.md)
+
+- Class 17: [Population Analysis](https://github.com/ehaddad1/bimm143_github/blob/main/class17/class17.md)
 
 
 
