@@ -1,0 +1,22 @@
+---
+title: "Class17"
+author: "Eli Haddad (A16308227)"
+format: pdf
+---
+
+Data import
+
+```{r}
+data <- read.csv("mm-second.x.zebrafish.tsv", sep= "\t", col.names= c("qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore"))
+```
+```{r}
+plot(data$pident  * (data$qend - data$qstart), data$bitscore)
+```
+```{r}
+library(ggplot2)
+ggplot(data, aes(pident, bitscore), breaks=30) + geom_point(alpha=0.1) + xlab("Percent Identity") + ylab("Bitscore")
+```
+```{r}
+ggplot(data, aes((data$pident * (data$qend - data$qstart)), bitscore)) + geom_point(alpha=0.1) + geom_smooth() + ylab("Bitscore") + xlab("Percent Identity x Length")
+```
+

@@ -363,8 +363,8 @@ table(wisc.km$cluster, wisc.hclust.clusters)
 
        wisc.hclust.clusters
           1   2   3   4
-      1 160   7  20   2
-      2  17   0 363   0
+      1  17   0 363   0
+      2 160   7  20   2
 
 The k-means spearates the diagnoses pretty well. Two distnct clusters
 can be seen when tabling wisc.km\$cluster and diagnosis. It is
