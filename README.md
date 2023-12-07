@@ -20,6 +20,9 @@ My classwork for F23 in [BIMM 143](https://github.com/ehaddad1/bimm143_github) a
 
 - Class 17: [AWS Cloud Analyzed Data](https://github.com/ehaddad1/bimm143_github/blob/main/class17/class17.md)
 
+- Class 17: [Pertussis and the CMI-PB Project](https://github.com/ehaddad1/bimm143_github/blob/main/Class19/class19.md)
+
+
 
 
 
