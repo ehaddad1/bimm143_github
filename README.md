@@ -10,11 +10,15 @@ My classwork for F23 in [BIMM 143](https://github.com/ehaddad1/bimm143_github) a
 
 - Class 08: [Machine Learning Project Analysis of Human Breast Cancer Cells](https://github.com/ehaddad1/bimm143_github/blob/main/class08/class08.md)
 
-- Class 09: [Halloween Mini-project](https://github.com/ehaddad1/bimm143_github/blob/main/class08/lab09HalloweenCandy.md)
+- Class 09: [Halloween Mini-project](https://github.com/ehaddad1/bimm143_github/blob/main/class09/lab09HalloweenCandy.md)
 
-- Class 10: [Structural Bioinformatics](https://github.com/ehaddad1/bimm143_github/blob/main/class08/class10.md)
+- Class 10: [Structural Bioinformatics](https://github.com/ehaddad1/bimm143_github/blob/main/class10/class10.md)
 
-- Class 11: [Population Analysis](https://github.com/ehaddad1/bimm143_github/blob/main/class08/class10.md)
+- Class 11: [Population Analysis](https://github.com/ehaddad1/bimm143_github/blob/main/Class11Pt2/class11part2.md)
+
+- Class 13: [Population Analysis](https://github.com/ehaddad1/bimm143_github/blob/main/Class13/class13.md)
+
+- Class 17: [Population Analysis](https://github.com/ehaddad1/bimm143_github/blob/main/class17/class17.md)
 
 
 
